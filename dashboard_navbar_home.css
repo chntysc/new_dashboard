@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+.img{
+  float:left;
+  width: 70%;
+  
+
+}
+.search{
+  float: right;
+  width: 30%;
+  padding-top: 100px;
+  padding-left: 250px;
+}
+
+
+/* Style the search field */
+.search.form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.search.form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+.search.form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+.search.form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(26, 17, 56);
+    overflow: hidden;
+    font-family: Gotham Rounded, sans-serif;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(195, 187, 224);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #605ec2;
+    color: white;
+  }
