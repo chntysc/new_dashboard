@@ -1,0 +1,24 @@
+*{
+
+}
+
+  
+.img{
+  float:left;
+  width: 100%;
+}
+
+body{
+  min-height: 100vh;
+  background-color: rgb(118, 164, 248);
+
+}
+.sidenav{
+  position: fixed;
+  padding-top: 100px;
+  width:60px;
+  height: 200px;
+  background: rgb(156, 182, 231);
+  transition:0.3s
+}
+  
