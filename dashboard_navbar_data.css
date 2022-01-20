@@ -1,22 +1,24 @@
 * {
+  margin:0;
+  padding:0;
   box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif
 }
 
+/*
 .img{
   float:left;
   width: 70%;
-  
-
 }
 .search{
   float: right;
   width: 30%;
   padding-top: 100px;
-  padding-left: 250px;
+  padding-left: 230px;
 }
 
 
-/* Style the search field */
+/* Style the search field 
 .search.form.example input[type=text] {
   padding: 10px;
   font-size: 17px;
@@ -26,7 +28,7 @@
   background: #f1f1f1;
 }
 
-/* Style the submit button */
+/* Style the submit button 
 .search.form.example button {
   float: left;
   width: 20%;
@@ -35,7 +37,7 @@
   color: white;
   font-size: 17px;
   border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
+  border-left: none; /* Prevent double borders 
   cursor: pointer;
 }
 
@@ -43,7 +45,7 @@
   background: #0b7dda;
 }
 
-/* Clear floats */
+/* Clear floats 
 .search.form.example::after {
   content: "";
   clear: both;
@@ -54,7 +56,7 @@
 .topnav {
     background-color: rgb(26, 17, 56);
     overflow: hidden;
-    font-family: Gotham Rounded, sans-serif;
+    position: fixed;
     width: 100%;
   }
   
@@ -79,3 +81,74 @@
     background-color: #605ec2;
     color: white;
   }
+
+body{
+  min-height: 500vh;
+  
+  
+}
+.sidenav{
+
+  background: rgb(26, 17, 56);
+  position: fixed;
+  width:50px;
+  height: 240px;
+  transition:0.3s;
+  color: rgb(170, 158, 211);
+  top: 300px;
+  
+}
+.sidenav:hover{
+  width:300px;
+
+}
+.sidenav ul{
+  position : absolute;
+  
+  width:100%;
+}
+
+.sidenav ul li{
+  position : relative;
+  width:100%;
+  list-style : none;
+  
+}
+.sidenav ul li:hover{
+  background :#9692d8;
+}
+.sidenav ul li a{
+  position: relative;
+  display: block;
+  width : 100%;
+  display: flex;
+  text-decoration: none;
+  color:#fff;
+
+}
+
+.sidenav ul li a .icon{
+  position : relative;
+  display : block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: : center;
+  left:15px;
+}
+
+.sidenav ul li a .icon .fa{
+  font-size : 18px;
+  left:0;
+  
+}
+
+.sidenav ul li a .title{
+  position : relative;
+  display : block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: : start;
+  white-space:nowrap;
+}
