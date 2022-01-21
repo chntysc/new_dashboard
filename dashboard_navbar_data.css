@@ -87,6 +87,12 @@ body{
   
   
 }
+.tabel{
+  width :50%;
+}
+.plot{
+  width :50%;
+}
 .sidenav{
 
   background: rgb(26, 17, 56);
